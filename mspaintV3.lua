@@ -16,7 +16,12 @@ OrionLib:MakeNotification({
                     Content = "汉化作者:小欣",
                     Time = 10
                 })    
-                
+wait(1)
+OrionLib:MakeNotification({
+                    Name = "感谢",
+                    Content = "测试员:NIDO_MUNCISEEK--",
+                    Time = 10
+                })        
                 local sound = Instance.new("Sound", workspace)
 sound.SoundId = "rbxassetid://4590662766"
 sound:Play()
